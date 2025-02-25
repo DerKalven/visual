@@ -35,7 +35,7 @@ server = flask.Flask(__name__)
 
 # Inicializar la aplicación Dash
 app = dash.Dash(__name__)
-server=app.server)
+server=app.server
 
 # Layout de la aplicación
 app.layout = html.Div([
