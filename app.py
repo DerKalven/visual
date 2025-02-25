@@ -16,7 +16,7 @@ import flask
 import os
 
 # Cargar datos (Reemplaza con la ruta real de tu archivo CSV)
-df = pd.read_csv(r"https://github.com/DerKalven/visual/blob/main/CasosSE.csv")
+df = pd.read_csv("https://github.com/DerKalven/visual/raw/main/CasosSE.csv")
 
 # Convertir columnas a valores numéricos
 df["Latitud"] = pd.to_numeric(df["Latitud"], errors="coerce")
